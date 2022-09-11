@@ -25,7 +25,7 @@ namespace AuthPageCaseOneTest
         [SetUp]
         public void Setup()
         {
-            _webDriver = new OpenQA.Selenium.Chrome.ChromeDriver(); //גûםוסעט ג הויסעגטÿ ÏÅÐÅÄ גסולט
+            _webDriver = new OpenQA.Selenium.Chrome.ChromeDriver();
             _webDriver.Navigate().GoToUrl(Helpers.Base.BASE_URL);
             _webDriver.Manage().Window.Maximize();
         }
