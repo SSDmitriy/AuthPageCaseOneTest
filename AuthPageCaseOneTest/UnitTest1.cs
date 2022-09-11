@@ -48,7 +48,7 @@ namespace AuthPageCaseOneTest
 
             //получение и ассерт фактических результатов, отображаемых на странице
             string actualPageTitle = eventsPage.GetTitle();
-            Assert.AreEqual(_expectedPageTitle, actualPageTitle, "Ќепрвильное название раздела: "
+            Assert.AreEqual(_expectedPageTitle, actualPageTitle, "Ќеправильное название раздела: "
                                                                     + _expectedPageTitle);
 
             string actualLoggedUser = eventsPage.GetLoggedUser();
